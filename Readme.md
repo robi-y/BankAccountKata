@@ -28,14 +28,15 @@ Acceptance criteria: Statement should have transactions in the following format:
 Constrains
 ----------
 
-Start with a class like this:
-'''
+Start with a class like this:
+
+```C#
 public class Account {
     public void Deposit(int amount);
-	public void Withdraw(int amount);	
-	public void PrintStatement();
+	public void Withdraw(int amount);	
+	public void PrintStatement();
 }
-'''
+```
 
 1. You can not add other public methods
 2. For simplicity, use strings and integers for dates and amounts
