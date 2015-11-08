@@ -1,8 +1,9 @@
 ﻿Bank account kata
 =================
 
-Think of your personal bank account experience
-When in doubt, go for the simplest solution
+Think of your personal bank account experience.
+When in doubt, go for the simplest solution.
+Try outside in test driven development.
 
 Requirements
 ------------
@@ -24,7 +25,24 @@ Acceptance criteria: Statement should have transactions in the following format:
 
 [Print Statement Acceprace Test](PrintStatementFeature.md)
 
-Follows a tutorial from @sandromancuso
+Constrains
+----------
+
+Start with a class like this:
+'''
+public class Account {
+    public void Deposit(int amount);
+	public void Withdraw(int amount);	
+	public void PrintStatement();
+}
+'''
+
+1. You can not add other public methods
+2. For simplicity, use strings and integers for dates and amounts
+3. Spaces in formatting can also be ignored
+
+
+This follows a tutorial from @sandromancuso, see their for other design/implementation constrasins.
  
 
 #### For more information:
@@ -34,6 +52,6 @@ Follows a tutorial from @sandromancuso
 Pragmatic Bookshelf 2008
 -  Original idea for the kata: How Object-Oriented Are You Feeling Today? - Krzysztof Jelski (Session on the Software Craftsmanship UK 2011 conference)
 -  Sandro's [Kata repository](https://github.com/sandromancuso/Bank-kata)
--  [Java verion](https://github.com/trikitrok/bank-kata)
+-  [A Java verion](https://github.com/trikitrok/bank-kata)
   
 
