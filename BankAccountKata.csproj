@@ -67,6 +67,7 @@
     <Compile Include="Console.cs" />
     <Compile Include="ITransactionManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StatementPrinter.cs" />
     <Compile Include="UnitTests\AccountShould.cs" />
   </ItemGroup>
   <ItemGroup>
