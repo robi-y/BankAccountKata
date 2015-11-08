@@ -66,8 +66,10 @@
     <Compile Include="BehaviorTests\PrintStatementFeature.cs" />
     <Compile Include="Console.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UnitTests\AccountShould.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="App.config" />
     <None Include="packages.config" />
     <None Include="PrintStatementFeature.md" />
     <None Include="project.json" />
