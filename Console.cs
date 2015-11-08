@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace BankAccountKata
 {
-    public class Class1
+    public class Console
     {
+        public void WriteLine(string text)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
