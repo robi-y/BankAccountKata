@@ -64,6 +64,7 @@
   <ItemGroup>
     <Compile Include="Account.cs" />
     <Compile Include="BehaviorTests\PrintStatementFeature.cs" />
+    <Compile Include="Clock.cs" />
     <Compile Include="Console.cs" />
     <Compile Include="InMemoryTransactionReopsitory.cs" />
     <Compile Include="ITransactionRepository.cs" />
