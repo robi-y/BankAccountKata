@@ -72,6 +72,7 @@
     <Compile Include="Statement.cs" />
     <Compile Include="StatementPrinter.cs" />
     <Compile Include="UnitTests\AccountShould.cs" />
+    <Compile Include="UnitTests\StatementFormatterShould.cs" />
     <Compile Include="UnitTests\StatementPrinterShould.cs" />
     <Compile Include="UnitTests\TransactionRepositoryShould.cs" />
   </ItemGroup>
